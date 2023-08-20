@@ -1,6 +1,6 @@
 const AWS = require('aws-sdk');
 AWS.config.update({
-    "region": "us-east-1"
+    "region": "ap-south-1"
 });
 const ses = new AWS.SES();
 
@@ -15,7 +15,7 @@ exports.handler = async (event) => {
     
     const params = {
         Destination: {
-            ToAddresses: ['you@yourdomain.com']
+            ToAddresses: ['satheeshs.professional@gmail.com']
         },
         Message: {
             Subject: {Data: "Order confirmation"},
@@ -23,7 +23,7 @@ exports.handler = async (event) => {
                 Text: {Data: "Your order has been recieved!"}
             }
         },
-        Source: 'you@yourdomain.com'
+        Source: 'satheeshs.professional@gmail.com'
     };
     
     await ses.sendEmail(params).promise().then(response => {
