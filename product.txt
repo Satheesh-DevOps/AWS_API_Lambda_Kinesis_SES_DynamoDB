@@ -1,0 +1,39 @@
+{
+    "productId": "101",
+    "name": "Product one",
+    "description": "This is first product for sales",
+    "price": 110,
+    "qty": 100
+}
+
+{
+    "productId": "102",
+    "name": "Product Two",
+    "description": "This is Second product for sales",
+    "price": 120,
+    "qty": 100
+}
+
+{
+    "productId": "103",
+    "name": "Product Three",
+    "description": "This is Third product for sales",
+    "price": 130,
+    "qty": 100
+}
+
+{
+    "productId": "104",
+    "name": "Product Four",
+    "description": "This is Fourth product for sales",
+    "price": 140,
+    "qty": 100
+}
+
+{
+    "productId": "105",
+    "name": "Product Five",
+    "description": "This is Fifth product for sales",
+    "price": 150,
+    "qty": 100
+}
